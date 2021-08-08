@@ -1,6 +1,9 @@
 # Add ThreadX to CubeMX project
 
+v1.0.0
+
 ## Software Pack
+
 In CubeMX Tab:
 
 1. Software packs
@@ -13,10 +16,10 @@ In CubeMX Tab:
    1. Select ThreadX / Core
    2. Select ThreadX / PerformanceInfo
    3. Select ThreadX / TraceX support
-4. Open Device
+3. Open Device
    1. Select HW_Profile: STM32H723ZG_NUCLEO
-   2. Select Application: azure_rtos_app    
-5. Click OK
+   2. Select Application: azure_rtos_app
+4. Click OK
 
 ![ThreadX pack selection](./img/07.png)
 
@@ -30,4 +33,3 @@ In CubeMX Tab:
 4. Save project CTRL+S(this will generate ThreadX files to our project)
 
 ![ThreadX pack mode](./img/08.png)
-
