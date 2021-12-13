@@ -6,7 +6,7 @@ Presentation
 
 ![gpio toggle pin selection](./img/13.png)
 
-Or copy here:
+## Or copy here:
 
 ```c
  HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin);
@@ -64,7 +64,7 @@ VOID my_thread_entry (ULONG initial_input)
 
 # Memory dedicated to trace
 
-1. In app_threadx.c into section /_ USER CODE BEGIN PV _/ add
+1. In app*threadx.c into section /* USER CODE BEGIN PV \_/ add
 
 ```c
 #define TRACEX_BUFFER_SIZE 64000
