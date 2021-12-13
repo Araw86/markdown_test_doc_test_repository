@@ -5,19 +5,22 @@ v2.0.0
 No language
 
 ```
-tx_trace_enable(&tracex_buffer,TRACEX_BUFFER_SIZE,30);
+#define TRACEX_BUFFER_SIZE 64000
+uint8_t tracex_buffer[64000];
 ```
 
 c
 
 ```c
-tx_trace_enable(&tracex_buffer,TRACEX_BUFFER_SIZE,30);
+#define TRACEX_BUFFER_SIZE 64000
+uint8_t tracex_buffer[64000];
 ```
 
 c-nc
 
 ```c-nc
-tx_trace_enable(&tracex_buffer,TRACEX_BUFFER_SIZE,30);
+#define TRACEX_BUFFER_SIZE 64000
+uint8_t tracex_buffer[64000];
 ```
 
 json
