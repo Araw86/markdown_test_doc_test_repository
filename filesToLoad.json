@@ -2,7 +2,7 @@
   "title": "STM32 ThreadX",
   "githubLoc": "https://github.com/Araw86/markdown_test_doc_test_repository/blob/master/doc",
   "options": {
-    "allowMenu": false,
+    "allowMenu": true,
     "allowTagSelect": false
   },
   "filesToLoadArr": [

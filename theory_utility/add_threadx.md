@@ -2,6 +2,29 @@
 
 v2.0.0
 
+```cc
+tx_trace_enable(&tracex_buffer,TRACEX_BUFFER_SIZE,30);
+```
+
+```cc
+tx_trace_enable(&tracex_buffer,TRACEX_BUFFER_SIZE,30);
+```
+
+```json
+{ "filesToLoadArr": [
+    {
+      "name": "1. Add ThreadX",
+      "path": "/theory_utility",
+      "file": "add_threadx.md"
+    },
+    {
+      "name": "2. Add TraceX",
+      "path": "/theory_utility",
+      "file": "adding_tracex.md"
+    }
+}
+```
+
 ## Software Pack
 
 In CubeMX Tab:
