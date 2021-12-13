@@ -2,15 +2,44 @@
 
 v2.0.0
 
-```cc
+No language
+
+```
 tx_trace_enable(&tracex_buffer,TRACEX_BUFFER_SIZE,30);
 ```
 
-```cc
+c
+
+```c
 tx_trace_enable(&tracex_buffer,TRACEX_BUFFER_SIZE,30);
 ```
+
+c-nc
+
+```c-nc
+tx_trace_enable(&tracex_buffer,TRACEX_BUFFER_SIZE,30);
+```
+
+json
 
 ```json
+{ "filesToLoadArr": [
+    {
+      "name": "1. Add ThreadX",
+      "path": "/theory_utility",
+      "file": "add_threadx.md"
+    },
+    {
+      "name": "2. Add TraceX",
+      "path": "/theory_utility",
+      "file": "adding_tracex.md"
+    }
+}
+```
+
+json-nc
+
+```json-nc
 { "filesToLoadArr": [
     {
       "name": "1. Add ThreadX",
