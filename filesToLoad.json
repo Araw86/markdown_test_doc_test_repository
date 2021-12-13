@@ -3,11 +3,7 @@
   "githubLoc": "https://github.com/Araw86/markdown_test_doc_test_repository/blob/master/doc",
   "options": {
     "allowMenu": true,
-<<<<<<< HEAD
-    "allowTagSelect": false
-=======
     "allowTagSelect": true
->>>>>>> 7d39acd0448c6416c79175fddab9130cec416b93
   },
   "filesToLoadArr": [
     {
