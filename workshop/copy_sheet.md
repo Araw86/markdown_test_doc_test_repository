@@ -28,6 +28,26 @@ uint8_t thread_stack[THREAD_STACK_SIZE];
 	TX_THREAD thread_ptr;
 ```
 
+```c-nc
+uint8_t thread_stack[THREAD_STACK_SIZE];
+	TX_THREAD thread_ptr;
+```
+
+```c-line54
+uint8_t thread_stack[THREAD_STACK_SIZE];
+	TX_THREAD thread_ptr;
+```
+
+```c-nc-line54
+uint8_t thread_stack[THREAD_STACK_SIZE];
+	TX_THREAD thread_ptr;
+```
+
+```c-line54-nc
+uint8_t thread_stack[THREAD_STACK_SIZE];
+	TX_THREAD thread_ptr;
+```
+
 4. To line 52 after /_ USER CODE BEGIN PFP _/ add:
 
 ```c
