@@ -55,7 +55,7 @@ json
 }
 ```
 
-```json-line1-filemain.c -nc
+```json-line1-filemain.c-nc
 { "filesToLoadArr": [
     {
       "name": "1. Add ThreadX",
