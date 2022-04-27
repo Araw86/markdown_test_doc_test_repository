@@ -40,7 +40,67 @@ json
 }
 ```
 
+```json-line1
+{ "filesToLoadArr": [
+    {
+      "name": "1. Add ThreadX",
+      "path": "/theory_utility",
+      "file": "add_threadx.md"
+    },
+    {
+      "name": "2. Add TraceX",
+      "path": "/theory_utility",
+      "file": "adding_tracex.md"
+    }
+}
+```
+
+```json-line1-filemain.c -nc
+{ "filesToLoadArr": [
+    {
+      "name": "1. Add ThreadX",
+      "path": "/theory_utility",
+      "file": "add_threadx.md"
+    },
+    {
+      "name": "2. Add TraceX",
+      "path": "/theory_utility",
+      "file": "adding_tracex.md"
+    }
+}
+```
+
+```json-line1-nc-filemain.c
+{ "filesToLoadArr": [
+    {
+      "name": "1. Add ThreadX",
+      "path": "/theory_utility",
+      "file": "add_threadx.md"
+    },
+    {
+      "name": "2. Add TraceX",
+      "path": "/theory_utility",
+      "file": "adding_tracex.md"
+    }
+}
+```
+
 json-nc
+
+```json-nc
+{ "filesToLoadArr": [
+    {
+      "name": "1. Add ThreadX",
+      "path": "/theory_utility",
+      "file": "add_threadx.md"
+    },
+    {
+      "name": "2. Add TraceX",
+      "path": "/theory_utility",
+      "file": "adding_tracex.md"
+    }
+}
+```
 
 ```json-nc
 { "filesToLoadArr": [
